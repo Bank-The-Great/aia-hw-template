@@ -17,8 +17,9 @@
 1. กดปุ่ม **Use this template** → **Create a new repository**
 2. ตั้งชื่อ repo เป็น `aia-hw-เลขกลุ่ม-ชื่อเล่น` เช่น `aia-hw-g03-ploy` (ภาษาอังกฤษตัวเล็ก ไม่มีเว้นวรรค GitHub ไม่รับตัวอักษรไทยในชื่อ repo)
 3. เลือก **Public** แล้วกด Create repository
-4. เปิด Claude Desktop แล้วพิมพ์ว่า `clone https://github.com/ชื่อบัญชีของคุณ/aia-hw-g03-ploy มาไว้ที่ Desktop` (เปลี่ยนเป็นชื่อ repo ของคุณ) โฟลเดอร์จะชื่อเดียวกับ repo
-5. เปิดโฟลเดอร์ที่ clone มาเป็นที่ทำงานใน Claude (สำคัญ: ถ้าเปิดโฟลเดอร์อื่น AI จะไม่เห็นกติกาใน repo นี้)
+4. ใน Claude Desktop แท็บ Code เลือกโฟลเดอร์ workspace ของคอร์ส `AI Investor Alpha` แล้วพิมพ์ว่า `clone https://github.com/ชื่อบัญชีของคุณ/aia-hw-g03-ploy ไว้ใน homework และเพิ่ม homework/ ใน .gitignore` (เปลี่ยนเป็นชื่อ repo ของคุณ) การบ้านจะอยู่ที่ `AI Investor Alpha/homework/aia-hw-g03-ploy`
+   - ทำไมต้องเพิ่มใน `.gitignore`: workspace เป็น repo แบบ Private ส่วนการบ้านเป็น repo แบบ Public แยกกัน บรรทัดนี้กันไม่ให้สอง repo ปนกัน
+5. เปิดโฟลเดอร์ `homework/aia-hw-…` ที่ clone มาเป็นที่ทำงานใน Claude (สำคัญ: ถ้าเปิดโฟลเดอร์อื่น AI จะไม่เห็นกติกาใน repo นี้)
 6. แก้ตารางด้านบนให้เป็นของคุณ แล้วลบหัวข้อ "วิธีใช้ template นี้" ทิ้งได้
 
 ## ไฟล์ใน repo นี้
@@ -35,7 +36,7 @@
 
 ## ก่อนเริ่มทำการบ้านทุกครั้ง
 
-- [ ] เปิดโฟลเดอร์ `aia-hw-…` ของคุณเป็นที่ทำงานใน Claude
+- [ ] เปิดโฟลเดอร์ `homework/aia-hw-…` ของคุณเป็นที่ทำงานใน Claude
 - [ ] ถามว่า "ตอนนี้ทำถึงไหน" Claude ต้องตอบจาก `prompts.md` ได้ (ถ้าตอบไม่ได้ = เปิดผิดโฟลเดอร์)
 - [ ] เช็ก model · effort · permission
 - [ ] ดูคอมเมนต์ผู้สอนในแท็บ Issues ของ repo บน GitHub
